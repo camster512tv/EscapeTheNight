@@ -1,0 +1,98 @@
+body{
+	background-color: black;
+	background: url(background.png) no-repeat center fixed;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  	background-size: cover;
+
+}
+
+
+footer{
+	text-align: center;
+	font-family: 'Comic Sans MS';
+	color: white;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:50px;
+	height:50px;
+}
+
+button.bouton{
+	display: block;
+	margin: auto auto auto auto;
+	text-decoration: none;
+    background: rgba(255,255,255,0);
+    border-radius: 20px;
+    padding: 15px 15px 15px 15px;
+    color: #00ff22;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 100%;
+    font-family: 'Verdana', sans-serif;
+    border-width: 2px;
+    border-style:solid;
+    border-color: black;
+    transition-property: border-color background-color; /* Active la transition sur background-color */
+    transition-duration: 1s;
+}
+
+button.bouton:hover{
+	font-size: 22px;
+	border-color: #63ffe2;
+	background-color: black;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	display: block;
+	margin: 30px auto auto auto;
+	text-shadow: 0 1px 0 #ccc,
+               	0 2px 0 #c9c9c9,
+               	0 3px 0 #bbb,
+               	0 4px 0 #b9b9b9,
+               	0 5px 0 #aaa,
+               	0 6px 1px rgba(0,0,0,.1),
+               	0 0 5px rgba(0,0,0,.1),
+               	0 1px 3px rgba(0,0,0,.3),
+               	0 3px 5px rgba(0,0,0,.2),
+               	0 5px 10px rgba(0,0,0,.25),
+               	0 10px 10px rgba(0,0,0,.2),
+               	0 20px 20px rgba(0,0,0,.15);
+}
+.icon{
+	height:75%;
+}
+
+.corps{
+	display: block;
+	font-size: 20px;
+	color: #1aad6b;
+	font-family: 'Arial Black', sans-serif;
+	text-align: center;
+	background-color: white;
+	margin: 25px auto 30px auto;
+	padding-top: 10px;
+	width: auto;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.plateforme{
+	width: 35%;
+	margin: 20px 20px 10px 10px;
+}
+.titre_plateforme{
+	display: block;
+	font: 23px bold;
+	margin-top: 50px;
+	color: black;
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center;
+	padding-top: 5px;
+	width: auto;
+	border-color: black;
+	border-radius: 15px 50px 30px;
+}
