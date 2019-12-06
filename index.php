@@ -10,7 +10,7 @@
 		<br>
 		<br>
 		<div class="test">
-			<button href="#" class="bouton">Commencer les énigmes</button>
+			<button onclick="location.href='menu.php'" type="button" class="bouton">Commencer les énigmes</button>
 		</div>
 		<center>
 			<p class="titre_plateforme">Adapté pour toutes vos plateformes</p>

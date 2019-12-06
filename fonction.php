@@ -9,6 +9,9 @@ function haut_de_page($titre)
   <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1">
   <title>'.$titre.'</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/css.css">
+  <link rel="stylesheet" href="../css/css2.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="icon" href="logo.ico">
 </head>
 <body class="background">';
